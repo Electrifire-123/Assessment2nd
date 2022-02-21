@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd_Assesment</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <form action="test.html">
+        <label for="name">Name :</label>
+        <input type="text" name="name" id="name" placeholder="Enter your Name" required><br><br>
+        <label for="email">Email Address :</label>
+        <input type="email" name="email" id="email" placeholder="Enter your Email" required><br><br>
+        <label for="password">Password :</label>
+        <input type="password" name="password" id="password" placeholder="Enter a strong password" required><br><br>
+        <label for="language">Language :-</label>
+        <div id="language">
+            <br>
+            <input type="radio" name="language" id="react" value="React">
+            <label for="react">React</label><br>
+            <input type="radio" name="language" id="angular" value="Angular">
+            <label for="angular">Angular</label><br>
+            <input type="radio" name="language" id="vue" value="Vue">
+            <label for="vue">Vue</label><br><br>
+        </div>
+        <label for="course">Course :</label>
+        <div id="course">
+            <br>
+            <input type="checkbox" name="course1" id="mern" required value="MERN">
+            <label for="mern">MERN</label><br>
+            <input type="checkbox" name="course2" id="mean" required value="MEAN">
+            <label for="mean">MEAN</label><br>
+            <input type="checkbox" name="course3" id="mevn" value="MEAN">
+            <label for="mevn">MEVN</label><br><br>
+        </div>
+
+        <label for="field">Field :</label><br>
+        <select name="field" id="field" required>
+            <option value="frontend">Front End</option>
+            <option value="backend">Back End</option>
+            <option value="fullstack">Full Stack</option>
+        </select>
+        <br><br>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Type the message here....."></textarea>
+        <br><br>
+        <label for="phone">Phone Number :</label>
+        <input type="number" name="number" id="phone" placeholder="Enter phone number" required>
+
+        <input type="submit" name="submit" id="submit">
+    </form>
+    <h1>TABLES</h1>
+    <a href="table.html">&rarr;Click Here&larr;</a>
+</body>
+
+</html>
